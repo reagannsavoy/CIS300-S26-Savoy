@@ -339,3 +339,29 @@ footer {
         box-sizing: border-box;
     }
 }
+.comparison {
+    padding: 30px;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #8a4f63;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f7f3f4;
+}
