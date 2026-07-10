@@ -221,3 +221,121 @@ footer {
 .weekly-item a:hover {
     text-decoration: underline;
 }
+.curated-hero {
+    max-width: 1100px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.curated-hero h1 {
+    margin-bottom: 25px;
+}
+
+.curated-hero img {
+    width: 100%;
+    max-width: 900px;
+    height: 420px;
+    object-fit: contain;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto 30px;
+}
+
+.curated-hero-text {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.inspiration-section {
+    max-width: 1100px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.inspiration-section img {
+    width: 100%;
+    max-width: 900px;
+    height: 500px;
+    object-fit: contain;
+    background-color: #f8f5f2;
+    border-radius: 12px;
+    display: block;
+    margin: 25px auto;
+}
+
+.inspiration-text {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.contact-intro {
+    max-width: 800px;
+    margin: 40px auto 20px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.contact-layout {
+    display: flex;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 30px auto 50px;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.contact-details,
+.contact-form {
+    flex: 1;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+}
+
+.contact-details h3,
+.contact-form h3 {
+    margin-top: 0;
+}
+
+.contact-details a {
+    word-break: break-word;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contact-form label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .contact-layout {
+        flex-direction: column;
+    }
+
+    .contact-details,
+    .contact-form {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

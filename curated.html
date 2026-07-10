@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Curated Closet | Conscious Closet</title>
+
+    <meta
+        name="description"
+        content="Discover Conscious Closet's personalized secondhand styling service. Share your measurements, style preferences, and inspiration to receive a curated wardrobe tailored just for you."
+    >
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="wrapper">
+
+    <header>
+        <h1>Conscious Closet</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="buy.html">Buy & Sell</a> |
+        <a href="fabrics.html">Know Your Fabrics</a> |
+        <a href="weekly.html">Weekly Picks</a> |
+        <a href="curated.html">Curated Closet</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+    <section class="curated-hero">
+        <h1>Curated Closet</h1>
+
+        <img
+            src="images/blue-tights.JPG"
+            alt="Woman selecting clothing from a colorful clothing rack"
+        >
+
+        <div class="curated-hero-text">
+            <h2>Your Personal Secondhand Stylist</h2>
+
+            <p>
+                Finding secondhand clothing can feel overwhelming. Curated Closet
+                takes the guesswork out of shopping by sourcing unique pieces based
+                on your measurements, style preferences, favorite colors, and
+                inspiration photos.
+            </p>
+
+            <p>
+                Every box is thoughtfully selected to help you build a wardrobe
+                you will actually wear while supporting a more sustainable fashion
+                industry.
+            </p>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <h2>How It Works</h2>
+
+        <div class="steps">
+            <article class="step-card">
+                <h3>1. Tell Me About You</h3>
+                <p>
+                    Complete the style profile with your clothing sizes,
+                    measurements, favorite colors, brands, and wardrobe goals.
+                </p>
+            </article>
+
+            <article class="step-card">
+                <h3>2. Share Inspiration</h3>
+                <p>
+                    Upload Pinterest boards, magazine pages, screenshots, or
+                    photos of outfits that represent your personal style.
+                </p>
+            </article>
+
+            <article class="step-card">
+                <h3>3. Receive Your Box</h3>
+                <p>
+                    Receive hand-selected secondhand pieces that match your
+                    preferences and help you create a more conscious closet.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section class="pricing-section">
+        <h2>Choose Your Closet Box</h2>
+
+        <div class="pricing-cards">
+            <article class="price-card">
+                <h3>Closet Refresh</h3>
+                <p class="price">$95</p>
+                <p>Three personally sourced clothing pieces.</p>
+            </article>
+
+            <article class="price-card">
+                <h3>Signature Closet</h3>
+                <p class="price">$150</p>
+                <p>Five personally sourced clothing pieces.</p>
+            </article>
+
+            <article class="price-card">
+                <h3>Complete Closet</h3>
+                <p class="price">$225</p>
+                <p>Eight personally sourced clothing pieces.</p>
+            </article>
+        </div>
+
+        <p class="pricing-note">
+            Pricing includes personal sourcing and styling. Shipping is calculated
+            separately. All clothing is secondhand and selected according to your
+            submitted preferences.
+        </p>
+    </section>
+
+    <section class="inspiration-section">
+        <div class="inspiration-text">
+            <h2>Inspiration Is Everything</h2>
+
+            <p>
+                Whether your style is minimalist, vintage, romantic, streetwear,
+                or somewhere in between, inspiration helps create a wardrobe that
+                feels uniquely yours.
+            </p>
+
+            <p>
+                Share Pinterest boards, magazine pages, or screenshots of outfits
+                you love so I can better understand your vision.
+            </p>
+        </div>
+
+        <img
+            src="images/pinterest-board.JPG"
+            alt="Fashion magazine inspiration board featuring clothing and accessories"
+        >
+    </section>
+
+    <section class="style-profile">
+        <h2>Create Your Style Profile</h2>
+
+        <p>
+            Complete the form below to tell me about your sizing, preferences,
+            and wardrobe needs.
+        </p>
+
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="closet-box">Select a Closet Box:</label>
+            <select id="closet-box" name="closet-box" required>
+                <option value="">Choose an option</option>
+                <option value="refresh">
+                    Closet Refresh — 3 pieces for $95
+                </option>
+                <option value="signature">
+                    Signature Closet — 5 pieces for $150
+                </option>
+                <option value="complete">
+                    Complete Closet — 8 pieces for $225
+                </option>
+            </select>
+
+            <label for="sizes">Clothing Sizes:</label>
+            <input
+                type="text"
+                id="sizes"
+                name="sizes"
+                placeholder="Example: Small tops, size 6 pants, size 8 shoes"
+                required
+            >
+
+            <label for="measurements">Measurements:</label>
+            <textarea
+                id="measurements"
+                name="measurements"
+                rows="4"
+                placeholder="Include bust, waist, hips, inseam, or other helpful measurements"
+            ></textarea>
+
+            <label for="colors">Favorite Colors:</label>
+            <input
+                type="text"
+                id="colors"
+                name="colors"
+                placeholder="Example: black, cream, pink, and burgundy"
+            >
+
+            <label for="style">Describe Your Personal Style:</label>
+            <textarea
+                id="style"
+                name="style"
+                rows="5"
+                placeholder="Tell me about your favorite styles, brands, and wardrobe goals"
+                required
+            ></textarea>
+
+            <label for="avoid">Anything I Should Avoid?</label>
+            <textarea
+                id="avoid"
+                name="avoid"
+                rows="3"
+                placeholder="List any colors, fabrics, fits, or clothing items you do not want"
+            ></textarea>
+
+            <label for="photo">Upload an Inspiration Photo:</label>
+            <input
+                type="file"
+                id="photo"
+                name="photo"
+                accept=".jpg,.jpeg,.png,.webp"
+            >
+
+            <button type="submit">Submit Style Profile</button>
+        </form>
+
+        <p class="form-note">
+            This form is for demonstration purposes and does not process payments
+            or permanently store submitted information.
+        </p>
+    </section>
+</main>
